@@ -16,6 +16,15 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@workspace/*": [
+        "libs/*"
+      ],
+      "@workspace/web": [
+        "xplat/web/index.ts"
+      ],
+      "@workspace/web/*": [
+        "xplat/web/*"
+      ]
     }
   },
   "exclude": [
